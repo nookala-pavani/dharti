@@ -18,10 +18,13 @@
     }
 
     .inner-content {
-      overflow: scroll;
-      height: 63vh;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      height: 70vh;
       margin-top: 10vh;
+      padding-left: 10vh;
       display: none;
+      scroll-behavior: smooth;
     }
     
     .content-div {
@@ -37,20 +40,27 @@
       font-family: "coolvetica";
       font-size: 125pt;
       color: #443b38;
+      cursor: pointer;
       opacity: 100%;
+      display: block !important;
+      margin-bottom: -10vh;
     }
   
     .art {
       font-family: "coolvetica";
       font-size: 125pt;
       line-height: 20vh;
+      cursor: pointer;
       color: #443b38;
       opacity: 30%;
+      display: block !important;
+      margin-bottom: -12vh;
     }
   
     .culture {
       font-family: "coolvetica";
       font-size: 125pt;
+      cursor: pointer;
       line-height: 33vh;
       color: #443b38;
       opacity: 30%;
@@ -115,6 +125,7 @@
     .dharti-title {
       font-family: "coolvetica";
     font-size: 43pt;
+    color: #443b38;
     line-height: 7vh;
     display: block;
     margin-top: 2vh;
@@ -138,6 +149,7 @@
     .guest-mixes-2 {
       font-family: "coolvetica";
       font-size: 43pt;
+      color: #443b38;
       line-height: 7vh;
       display: block;
       margin-top: 2vh;
@@ -158,8 +170,8 @@
   
     .name-highlight {
       font-size: 20pt;
+      color: #443b38;
       font-family: 'coolvetica';
-      color: white;
     }
   
     .anu-name-highlight {

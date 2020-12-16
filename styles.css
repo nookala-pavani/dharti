@@ -1,5 +1,6 @@
 @import url("music.css");
 @import url("art.css");
+@import url("culture.css");
 
 @font-face {
   font-family: "coolvetica";
@@ -23,6 +24,7 @@
   body, html {
     margin: 0;
     scroll-behavior: smooth;
+    text-decoration: none;
   }
 
 
@@ -52,6 +54,12 @@
     width: 100vw;
   }
 
+  .content-div .footer {
+    position: relative !important;
+    width: 100% !important;
+    left: 1vh !important;
+  }
+
   .radio-link {
     right: 14.5vw;
     position: fixed;
@@ -64,4 +72,10 @@
     line-height: 4vh;
   }
 
-  
+  .contact-us {
+    padding-right: 2vh;
+    color: white;
+    text-decoration: none;
+    font-family: 'coolvetica';
+    cursor: pointer;
+  }

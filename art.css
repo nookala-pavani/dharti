@@ -1,18 +1,11 @@
-    .art-section .music {
-        opacity: 30% !important;
-    }
-
-    .art-section .art {
-        opacity: 100% !important;
-    }
-
-    .art-section .culture {
-         opacity: 30% !important;
-    }
-
     .art-section .music-content-div {
-        width: 120vw !important;
-        margin-bottom: 46vh !important;
+        margin-bottom: 6vh !important;
+        font-family: "coolvetica";
+        font-size: 18pt;
+    }
+
+    .art-section .guest-mixes-2 {
+        color: #443b38
     }
 
     .art-section .featured-artist {
@@ -20,7 +13,6 @@
     }
 
     .art-section .profile-details {
-        line-height: 5.5vh !important;
         font-family: 'coolvetica' !important;
     }
 
@@ -33,7 +25,7 @@
     }
 
     .guifire-pic-align {
-        height: 40vh !important;
+        height: 20vh !important;
         margin-top: 4vh !important;
     }
 
