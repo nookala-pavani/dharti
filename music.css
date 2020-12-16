@@ -19,7 +19,7 @@
 
     .inner-content {
       overflow: scroll;
-      height: 50vh;
+      height: 63vh;
       margin-top: 10vh;
       display: none;
     }
@@ -111,18 +111,13 @@
     .four {
       background-color: #7e6b71;
     }
-  
-    .music-title {
-      color: #443b38;
-      font-size: 28pt;
-      line-height: 9vh;
-    }
 
     .dharti-title {
       font-family: "coolvetica";
-      font-size: 28pt;
-      line-height: 5vh;
-      display: block;
+    font-size: 43pt;
+    line-height: 7vh;
+    display: block;
+    margin-top: 2vh;
     }
   
     .home-radio-player {
@@ -139,6 +134,14 @@
       top: 4%;
       width: 75vh !important;
     }
+
+    .guest-mixes-2 {
+      font-family: "coolvetica";
+      font-size: 43pt;
+      line-height: 7vh;
+      display: block;
+      margin-top: 2vh;
+    }
     
     .anu-peace {
       top: 10%;
@@ -149,22 +152,26 @@
     }
   
     .tasneem-pic-align {
-      height: 22vh;
+      height: 14vh;
       margin-top: 4vh;
     }
   
     .name-highlight {
+      font-size: 20pt;
+      font-family: 'coolvetica';
       color: white;
     }
   
     .anu-name-highlight {
       color: white;
+      font-size: 18pt;
+      font-family: 'coolvetica';
       font-size: 50pt;
     }
   
     .profile-details {
       color: white;
-      font-size: 25pt;
+      font-size: 18pt;
+      font-family: 'coolvetica';
       line-height: 4vh;
-      margin-top: 3vh;
     }

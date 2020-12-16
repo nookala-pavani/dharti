@@ -1,42 +1,34 @@
-    .art-background {
-        background-color: #b38955;
-        background-image: url("assets/background-graphic.png");
-        height: 100vh;
-        width: 100vw;
-        background-position: center center;
-        background-size: cover;
-    }
-
-    .art-background .music {
+    .art-section .music {
         opacity: 30% !important;
     }
 
-    .art-background .art {
+    .art-section .art {
         opacity: 100% !important;
     }
 
-    .art-background .culture {
+    .art-section .culture {
          opacity: 30% !important;
     }
 
-    .art-background .music-content-div {
+    .art-section .music-content-div {
         width: 120vw !important;
+        margin-bottom: 46vh !important;
     }
 
-    .art-background .featured-artist {
+    .art-section .featured-artist {
         width: 98vh !important;
     }
 
-    .art-background .profile-details {
+    .art-section .profile-details {
         line-height: 5.5vh !important;
         font-family: 'coolvetica' !important;
     }
 
-    .art-background .anu-peace {
+    .art-section .anu-peace {
         top: 0 !important
     }
 
-    .art-background  .box-three {
+    .art-section  .box-three {
         width: 40vw !important;
     }
 
@@ -51,11 +43,11 @@
         line-height: 12vh;
     }
 
-    .art-background .content-div {
+    .art-section .content-div {
         background: #b38955;
     } 
 
-    .art-background .horizontal-scroll-wrapper {
+    .art-section .horizontal-scroll-wrapper {
          background-color: #b38955 !important;
     }
    .five {
