@@ -1,0 +1,72 @@
+    .art-background {
+        background-color: #b38955;
+        background-image: url("assets/background-graphic.png");
+        height: 100vh;
+        width: 100vw;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .art-background .music {
+        opacity: 30% !important;
+    }
+
+    .art-background .art {
+        opacity: 100% !important;
+    }
+
+    .art-background .culture {
+         opacity: 30% !important;
+    }
+
+    .art-background .music-content-div {
+        width: 120vw !important;
+    }
+
+    .art-background .featured-artist {
+        width: 98vh !important;
+    }
+
+    .art-background .profile-details {
+        line-height: 5.5vh !important;
+        font-family: 'coolvetica' !important;
+    }
+
+    .art-background .anu-peace {
+        top: 0 !important
+    }
+
+    .art-background  .box-three {
+        width: 40vw !important;
+    }
+
+    .guifire-pic-align {
+        height: 40vh !important;
+        margin-top: 4vh !important;
+    }
+
+    .yantrart {
+        color: white;
+        font-size: 65pt;
+        line-height: 12vh;
+    }
+
+    .art-background .content-div {
+        background: #b38955;
+    } 
+
+    .art-background .horizontal-scroll-wrapper {
+         background-color: #b38955 !important;
+    }
+   .five {
+         background-color: #b38955 !important;
+    }
+     .six {
+         background-color: #b38955 !important;
+    }
+    .seven {
+         background-color: #b38955 !important;
+    }
+   .eight {
+        background-color: #b38955 !important;
+    }

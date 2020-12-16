@@ -1,0 +1,67 @@
+@import url("music.css");
+@import url("art.css");
+
+@font-face {
+  font-family: "coolvetica";
+  src: url("assets/coolvetica/coolvetica\ rg.ttf");
+}
+@font-face {
+  font-family: "coolvetica-condensed";
+  src: url("assets/coolvetica/coolvetica\ condensed\ rg.ttf");
+}
+@font-face {
+  font-family: "coolvetica-compressed";
+  src: url("assets/coolvetica/coolvetica\ compressed\ rg.ttf");
+}
+
+* {
+  box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+}
+  
+  body, html {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
+
+  .main-div {
+    background-image: url("assets/main.png");
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+  }
+
+  .main-logo {
+    text-align: center;
+    top: 20vh;
+    left: 36vw;
+    background-attachment: fixed;
+    position: fixed;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 3vh;
+    left: 3vw;
+    background-attachment: fixed;
+    width: 100vw;
+  }
+
+  .radio-link {
+    right: 14.5vw;
+    position: fixed;
+    bottom: 1.5vw;
+    background-attachment: fixed;
+    font-family: "coolvetica-condensed";
+    text-align-last: right;
+    font-size: xx-large;
+    color: white;
+    line-height: 4vh;
+  }
+
+  
