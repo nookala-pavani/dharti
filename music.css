@@ -3,6 +3,7 @@
       background-image: url("assets/background-graphic.png");
       height: 100vh;
       width: 100vw;
+      background-attachment: fixed;
       background-position: center center;
       background-size: cover;
       position: relative;
@@ -33,6 +34,7 @@
       background: #7e6b71;
       position: absolute;
       margin: 10vh;
+    height: 90vh;
       width: -webkit-fill-available;
     }
   
@@ -129,12 +131,6 @@
     line-height: 7vh;
     display: block;
     margin-top: 2vh;
-    }
-  
-    .home-radio-player {
-      position: fixed;
-      bottom: 0;
-      right: 0;
     }
   
     .music-radio-player {

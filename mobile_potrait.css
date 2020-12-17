@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+    .radio-link {
+        right: 28vw !important;
+        bottom: 5.5vw !important;
+        font-size: x-large !important;
+        line-height: 3vh !important;
+    }
+
+    .content-div {
+        padding: 0 !important;
+        margin: 4vh !important;
+        display: block;
+    }
+
+    .inner-content {
+        height: 50vh !important;
+        margin-top: -12vh !important;
+        padding-left: 1vh !important;
+    }
+
+    .main-logo {
+        transform: translate(-55%, -75%) !important;
+    }
+
+    .music {
+        font-size: 50pt !important;
+        margin-bottom: -11vh !important;
+    }
+
+    .art {
+        font-size: 50pt !important;
+        margin-bottom: -22vh !important;
+    }
+
+    .culture {
+        font-size: 50pt !important;
+    }
+
+    .music-content-div > div > p { 
+        line-height: 3vh !important;
+        font-size: 13pt !important;
+    }
+
+    .dharti-title {
+        font-size: 35pt !important;
+        line-height: 5vh !important;
+        margin-bottom: -3vh !important;
+    }
+
+    .guest-mixes-2 {
+        font-size: 35pt !important;
+        line-height: 5vh !important;
+        margin-bottom: -3vh !important;
+    }
+
+    .name-highlight {
+        font-size: 17pt !important;
+    }
+
+    .profile-details {
+        font-size: 14pt !important;
+        line-height: 3vh !important;
+    }
+}

@@ -1,13 +1,27 @@
 // this function runs every time you are scrolling
 
+$(document).ready(function() {
+  $('.footer').css('transition', 'opacity 0.5s linear');
+  $('.footer').css('transition-delay', '0.5s');
+
+  $('.footer').css('opacity', '1');
+
+  $('.main-logo').css('transition', 'opacity 0.5s linear');
+  $('.main-logo').css('opacity', '1');
+
+});
+
 $(window).scroll(function() {
     var music_bottom = $('.music-background').outerHeight();
     var top_of_screen = $(window).scrollTop();
-    console.log(top_of_screen, music_bottom);
     if(Math.round(top_of_screen) >= Math.round(music_bottom)) {
         $('.inner-content').fadeIn('slow');
+        $('.music-footer').css('transition', 'opacity 0.5s linear');
+        $('.music-footer').css('opacity', '1');
     } else {
         $('.inner-content').fadeOut('slow');
+        $('.music-footer').css('transition', 'opacity 0.5s linear');
+        $('.music-footer').css('opacity', '0');
     }
 });
 

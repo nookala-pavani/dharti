@@ -1,0 +1,20 @@
+@media only screen and (min-width: 600px) and (max-width: 991px) { 
+    .radio-link {
+        right: 14vw !important;
+        line-height: 7vh !important;
+    }
+
+    .music {
+        font-size: 50pt !important;
+        margin-bottom: -11vh !important;
+    }
+
+    .art {
+        font-size: 50pt !important;
+        margin-bottom: -20vh !important;
+    }
+
+    .culture {
+        font-size: 50pt !important;
+    }
+}

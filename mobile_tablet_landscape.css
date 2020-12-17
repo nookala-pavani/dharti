@@ -1,0 +1,36 @@
+@media only screen and (min-width: 768px) and (max-width: 991px){
+
+    .radio-link {
+        line-height: 7vh !important;
+    }
+
+    .art {
+        margin-bottom: -17vh !important;
+    }
+
+    .music-content-div > div > p { 
+        line-height: 5vh !important;
+        font-size: 15pt !important;
+    }
+
+    .dharti-title {
+        line-height: 10vh !important;
+        font-size: 37pt !important;
+        margin-bottom: -3vh !important;
+    }
+
+    .guest-mixes-2 {
+        font-size: 37pt !important;
+        line-height: 12vh !important;
+        margin-bottom: -3vh !important;
+    }
+
+    .name-highlight {
+        font-size: 19pt !important;
+    }
+
+    .profile-details {
+        font-size: 16pt !important;
+        line-height: 6vh !important;
+    }
+}
