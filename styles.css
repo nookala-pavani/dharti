@@ -40,8 +40,9 @@
 
   .main-logo {
     text-align: center;
-    top: 20vh;
-    left: 36vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
     background-attachment: fixed;
     position: fixed;
   }
@@ -79,3 +80,8 @@
     font-family: 'coolvetica';
     cursor: pointer;
   }
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}

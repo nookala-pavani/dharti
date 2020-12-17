@@ -4,7 +4,7 @@ $(window).scroll(function() {
     var music_bottom = $('.music-background').outerHeight();
     var top_of_screen = $(window).scrollTop();
     console.log(top_of_screen, music_bottom);
-    if(Math.round(top_of_screen) === Math.round(music_bottom)) {
+    if(Math.round(top_of_screen) >= Math.round(music_bottom)) {
         $('.inner-content').fadeIn('slow');
     } else {
         $('.inner-content').fadeOut('slow');
