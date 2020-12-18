@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
     .radio-link {
-        right: 28vw !important;
+        right: 25vw !important;
         bottom: 5.5vw !important;
         font-size: x-large !important;
         line-height: 3vh !important;
@@ -19,7 +19,15 @@
     }
 
     .main-logo {
-        transform: translate(-55%, -75%) !important;
+        transform: translate(-50%, -75%) !important;
+    }
+
+    .home-radio-player {
+        margin-right: -5vh !important;
+    }
+
+    .footer {
+        left: 5vw !important;
     }
 
     .music {

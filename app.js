@@ -23,6 +23,23 @@ $(window).scroll(function() {
         $('.music-footer').css('transition', 'opacity 0.5s linear');
         $('.music-footer').css('opacity', '0');
     }
+    if(top_of_screen != 0) {
+        $('.footer').css('transition', 'opacity 0.5s linear');
+        $('.footer').css('transition-delay', '0.5s');
+      
+        $('.footer').css('opacity', '0');
+      
+        $('.main-logo').css('transition', 'opacity 0.5s linear');
+        $('.main-logo').css('opacity', '0');
+    } else {
+        $('.footer').css('transition', 'opacity 0.5s linear');
+        $('.footer').css('transition-delay', '0.5s');
+      
+        $('.footer').css('opacity', '1');
+      
+        $('.main-logo').css('transition', 'opacity 0.5s linear');
+        $('.main-logo').css('opacity', '1');
+    }
 });
 
 $(".inner-content").scroll(function() {
